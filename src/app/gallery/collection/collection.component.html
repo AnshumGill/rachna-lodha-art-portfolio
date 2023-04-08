@@ -1,0 +1,20 @@
+<div class="container-fluid d-flex min-vh-100 justify-content-center flex-column pt-5">
+	<div class="row text-center pt-5">
+		<div class="col">
+			<p class="display-3">{{ collectionObj.name }}</p>
+			<p>{{ collectionObj.description }}</p>
+		</div>
+	</div>
+	<div class="row justify-content-center px-0 px-md-3 px-lg-5">
+		<div class="col-12 col-md-6 col-lg-4" *ngFor="let artwork of collectionObj.artworks">
+			<a href="/collection/{{ collectionToken }}/artwork/{{ artwork.token }}" class="text-reset text-decoration-none">
+				<div class="card border-0 rounded-0 bg-transparent h-100" [ngClass]="{ sold: artwork.sold === true }">
+					<img src="{{ artwork.image }}" class="art-img" />
+					<div class="card-body text-center d-flex align-items-end">
+						<p class="h5 text-dark flex-grow-1">{{ artwork.name }} - {{ artwork.year }}</p>
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
+</div>

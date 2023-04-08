@@ -1,0 +1,15 @@
+<div class="container-fluid min-vh-100 d-flex flex-column justify-content-center">
+	<div class="row justify-content-center">
+		<div class="col-12 col-md-6 col-lg-4">
+			<img src="{{ artworkObj.image }}" class="img-fluid" />
+		</div>
+		<div class="col-12 col-md-6 col-lg-4">
+			<a href="/collection/{{ collectionToken }}" class="d-none d-md-block text-decoration-none text-reset"
+				><i class="bi bi-arrow-left-short"></i>Back to {{ collectionName }}</a
+			>
+			<p class="display-2 newline text-center text-md-start mb-0">{{ artworkObj.name }}</p>
+			<p class="fs-3 text-center text-md-start">{{ artworkObj.year }}</p>
+			<p class="fs-3 desc newline text-center text-md-start">{{ artworkObj.description }}</p>
+		</div>
+	</div>
+</div>

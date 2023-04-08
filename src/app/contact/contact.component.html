@@ -1,0 +1,140 @@
+<div class="vh-100 vw-100 landing">
+	<div class="container h-100">
+		<div class="row h-100 d-flex flex-row justify-content-center align-items-center">
+			<div class="col-10 col-md-10 col-lg-8 bg-white text-dark shadow-lg">
+				<div class="row p-3 p-md-5">
+					<div class="col-12 col-md-6 px-0 d-none d-md-block">
+						<small><i class="bi bi-envelope"></i><a href="mailto:rachnalodha@gmail.com" class="text-reset ps-1">rachnalodha@gmail.com</a></small
+						><br />
+						<small><i class="bi bi-telephone"></i><a href="tel:+91-9811269583" class="text-reset ps-1">+91-9811269583</a></small>
+					</div>
+					<div class="col-12 col-md-6 px-0">
+						<p class="display-1 text-center">CONTACT</p>
+						<form [formGroup]="formData" (ngSubmit)="onSubmit(formData.value)">
+							<div class="row">
+								<div class="col">
+									<div class="form-floating">
+										<input
+											type="text"
+											class="form-control rounded-0 border-0 border-bottom border-secondary px-2"
+											id="fullname"
+											placeholder="NAME"
+											formControlName="fullname"
+											[ngClass]="{
+												'is-invalid': formData.get('fullname')?.invalid && (formData.get('fullname')?.dirty || formData.get('fullname')?.touched)
+											}"
+										/>
+										<label for="fullname" class="px-1 text-secondary">NAME</label>
+										<div
+											*ngIf="formData.get('fullname')?.invalid && (formData.get('fullname')?.dirty || formData.get('fullname')?.touched)"
+											class="invalid-feedback"
+										>
+											Required
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row mb-2">
+								<div class="col-12 col-md-6">
+									<div class="form-floating">
+										<input
+											type="email"
+											class="form-control rounded-0 border-0 border-bottom border-secondary px-2"
+											id="email"
+											placeholder="EMAIL"
+											formControlName="email"
+											[ngClass]="{ 'is-invalid': formData.get('email')?.invalid && (formData.get('email')?.dirty || formData.get('email')?.touched) }"
+										/>
+										<label for="email" class="px-1 text-secondary">EMAIL</label>
+										<div
+											*ngIf="formData.get('email')?.invalid && (formData.get('email')?.dirty || formData.get('email')?.touched)"
+											class="invalid-feedback"
+										>
+											Required
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-md-6">
+									<div class="form-floating">
+										<input
+											type="tel"
+											class="form-control rounded-0 border-0 border-bottom border-secondary px-2"
+											id="phone"
+											placeholder="PHONE"
+											formControlName="phone"
+											[ngClass]="{ 'is-invalid': formData.get('phone')?.invalid && (formData.get('phone')?.dirty || formData.get('phone')?.touched) }"
+										/>
+										<label for="phone" class="px-1 text-secondary">PHONE</label>
+										<div
+											*ngIf="formData.get('phone')?.invalid && (formData.get('phone')?.dirty || formData.get('phone')?.touched)"
+											class="invalid-feedback"
+										>
+											Required
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<div class="form-floating">
+										<select
+											class="form-select rounded-0 border-0 border-bottom border-secondary px-2"
+											id="category"
+											formControlName="category"
+											[ngClass]="{
+												'is-invalid': formData.get('category')?.invalid && (formData.get('category')?.dirty || formData.get('category')?.touched)
+											}"
+										>
+											<option value="1" selected>Category 1</option>
+											<option value="2">Category 2</option>
+											<option value="3">Category 3</option>
+											<option value="4">Category 4</option>
+										</select>
+										<label for="category" class="px-1 text-secondary">CATEGORY</label>
+										<div
+											*ngIf="formData.get('category')?.invalid && (formData.get('category')?.dirty || formData.get('category')?.touched)"
+											class="invalid-feedback"
+										>
+											Required
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row mb-4">
+								<div class="col">
+									<div class="form-floating">
+										<textarea
+											type="text"
+											class="form-control rounded-0 border-0 border-bottom border-secondary px-2"
+											id="message"
+											placeholder="MESSAGE"
+											rows="3"
+											formControlName="message"
+											[ngClass]="{
+												'is-invalid': formData.get('message')?.invalid && (formData.get('message')?.dirty || formData.get('message')?.touched)
+											}"
+										></textarea>
+										<label for="message" class="px-1 text-secondary">MESSAGE</label>
+										<div
+											*ngIf="formData.get('message')?.invalid && (formData.get('message')?.dirty || formData.get('message')?.touched)"
+											class="invalid-feedback"
+										>
+											Required
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-end">
+									<button class="btn btn-transparent rounded-0 border-0" type="submit" [ngClass]="{ disabled: formData.invalid }">
+										<span class="h4 text-dark">SUBMIT</span>
+									</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

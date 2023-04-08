@@ -1,0 +1,23 @@
+@media only screen and (min-width: 600px) {
+	.art-img {
+		width: 25vmax;
+		height: 30vmax;
+		object-fit: cover;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.container-fluid {
+	--bs-secondary-rgb: 205, 205, 205;
+}
+
+.sold::after {
+	content: " ";
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: red;
+	height: 15px;
+	width: 15px;
+}

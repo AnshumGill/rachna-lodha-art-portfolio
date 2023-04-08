@@ -1,0 +1,12 @@
+@media only screen and (min-width: 600px) {
+	.about-image-overlay {
+		margin-right: -5rem;
+		z-index: 1000;
+	}
+	.about-img-top {
+		background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+	}
+	.about-under-image {
+		margin-right: -10%;
+	}
+}
