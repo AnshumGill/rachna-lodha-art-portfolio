@@ -1,12 +1,12 @@
 @media only screen and (max-width: 600px) {
 	.landing {
-		background: url("../../assets/images/landing_bg.jpg"), linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1));
+		background: url("../../assets/images/landing.webp"), linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0));
 	}
 }
 
 @media only screen and (min-width: 600px) {
 	.landing {
-		background: url("../../assets/images/landing_bg.jpg"), linear-gradient(90deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1));
+		background: url("../../assets/images/landing.webp"), linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0));
 	}
 }
 
