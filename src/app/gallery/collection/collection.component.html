@@ -10,8 +10,7 @@
 			<a href="/collection/{{ collectionToken }}/artwork/{{ artwork.token }}" class="text-reset text-decoration-none">
 				<div class="card border-0 rounded-0 bg-transparent h-100" [ngClass]="{ sold: artwork.sold === true }">
 					<picture class="mx-auto">
-						<source srcset="{{ artwork.image }}.webp" media="(min-width: 1080px)" />
-						<source srcset="{{ artwork.image }}_m.webp" media="(max-width: 1080px) and (min-width: 600px)" />
+						<source srcset="{{ artwork.image }}_m.webp" media="(min-width: 600px)" />
 						<img src="{{ artwork.image }}_s.webp" class="art-img" loading="lazy" decoding="async" />
 					</picture>
 					<div class="card-body text-center d-flex align-items-end">

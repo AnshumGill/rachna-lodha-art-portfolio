@@ -11,8 +11,7 @@
 					<a href="/collection/{{ collection.token }}" class="text-decoration-none text-reset">
 						<div class="card text-white bg-transparent border-0 rounded-0">
 							<picture>
-								<source srcset="{{ collection.image }}.webp" media="(min-width: 1080px)" />
-								<source srcset="{{ collection.image }}_m.webp" media="(max-width: 1080px) and (min-width: 600px)" />
+								<source srcset="{{ collection.image }}_m.webp" media="(min-width: 600px)" />
 								<img src="{{ collection.image }}_s.webp" class="card-img-top" loading="lazy" decoding="async" />
 							</picture>
 							<div class="card-body text-dark text-center">
