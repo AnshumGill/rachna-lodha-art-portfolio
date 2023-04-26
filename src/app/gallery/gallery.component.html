@@ -10,7 +10,7 @@
 				<swiper-slide *ngFor="let collection of gallery_data">
 					<a href="/collection/{{ collection.token }}" class="text-decoration-none text-reset">
 						<div class="card text-white bg-transparent border-0 rounded-0">
-							<img src="{{ collection.image }}" class="card-img-top shadow" />
+							<img src="{{ collection.thumbnail }}" class="card-img-top" />
 							<div class="card-body text-dark text-center">
 								<p class="h5">{{ collection.name }}</p>
 								<p class="card-text">{{ collection.description }}</p>

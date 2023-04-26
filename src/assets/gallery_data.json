@@ -1,62 +1,71 @@
 [
 	{
 		"name": "the process",
-		"image": "assets/images/collections/process/collection.jpg",
+		"image": "assets/images/collections/process/collection.webp",
+		"thumbnail": "assets/images/collections/process/collection_s.webp",
 		"description": "",
 		"artworks": [
 			{
 				"name": "the process 1",
 				"year": "2020",
-				"image": "assets/images/collections/process/1.jpg",
+				"image": "assets/images/collections/process/1.webp",
+				"thumbnail": "assets/images/collections/process/1_s.webp",
 				"description": "Dimension - 11\"x15\". Medium - Oil Pastel on Paper",
 				"sold": false
 			},
 			{
 				"name": "the process 2",
 				"year": "2020",
-				"image": "assets/images/collections/process/2.jpg",
+				"image": "assets/images/collections/process/2.webp",
+				"thumbnail": "assets/images/collections/process/2_s.webp",
 				"description": "Dimension - 11\"x15\". Medium - Oil Pastel on Paper",
 				"sold": false
 			},
 			{
 				"name": "the process 3",
 				"year": "2021",
-				"image": "assets/images/collections/process/3.jpg",
+				"image": "assets/images/collections/process/3.webp",
+				"thumbnail": "assets/images/collections/process/3_s.webp",
 				"description": "Dimension - 11\"x15\". Medium - Oil Pastel on Paper",
 				"sold": false
 			},
 			{
 				"name": "the process 4",
 				"year": "2022",
-				"image": "assets/images/collections/process/4.jpg",
+				"image": "assets/images/collections/process/4.webp",
+				"thumbnail": "assets/images/collections/process/4_s.webp",
 				"description": "Dimension - 11\"x15\". Medium - Oil Pastel on Paper",
 				"sold": false
 			},
 			{
 				"name": "the process 5",
 				"year": "2021",
-				"image": "assets/images/collections/process/5.jpg",
+				"image": "assets/images/collections/process/5.webp",
+				"thumbnail": "assets/images/collections/process/5_s.webp",
 				"description": "Dimension - 11\"x16\". Medium - Oil Pastel on Paper",
 				"sold": false
 			},
 			{
 				"name": "the process 6",
 				"year": "2022",
-				"image": "assets/images/collections/process/6.jpg",
+				"image": "assets/images/collections/process/6.webp",
+				"thumbnail": "assets/images/collections/process/6_s.webp",
 				"description": "Dimension - 11\"x16\". Medium - Oil Pastel on Paper",
 				"sold": false
 			},
 			{
 				"name": "the process 7",
 				"year": "2021",
-				"image": "assets/images/collections/process/7.jpg",
+				"image": "assets/images/collections/process/7.webp",
+				"thumbnail": "assets/images/collections/process/7_s.webp",
 				"description": "Dimension - 11\"x16\". Medium - Oil Pastel on Paper",
 				"sold": false
 			},
 			{
 				"name": "the process 8",
 				"year": "2022",
-				"image": "assets/images/collections/process/8.jpg",
+				"image": "assets/images/collections/process/8.webp",
+				"thumbnail": "assets/images/collections/process/8_s.webp",
 				"description": "Dimension - 9\"x12\". Medium - Oil Pastel on Paper",
 				"sold": false
 			}
@@ -64,69 +73,79 @@
 	},
 	{
 		"name": "tour of unknown",
-		"image": "assets/images/collections/tourofunknown/collection.jpg",
+		"image": "assets/images/collections/tourofunknown/collection.webp",
+		"thumbnail": "assets/images/collections/tourofunknown/collection_s.webp",
 		"description": "",
 		"artworks": [
 			{
 				"name": "tour of unknown 1",
 				"year": "2020",
-				"image": "assets/images/collections/tourofunknown/1.jpg",
+				"image": "assets/images/collections/tourofunknown/1.webp",
+				"thumbnail": "assets/images/collections/tourofunknown/1_s.webp",
 				"description": "Dimension - 11\"x15\". Medium - Oil Pastel on Paper",
 				"sold": true
 			},
 			{
 				"name": "tour of unknown 2",
 				"year": "2020",
-				"image": "assets/images/collections/tourofunknown/2.jpg",
+				"image": "assets/images/collections/tourofunknown/2.webp",
+				"thumbnail": "assets/images/collections/tourofunknown/2_s.webp",
 				"description": "Dimension - 11\"x15\". Medium - Oil Pastel on Paper",
 				"sold": false
 			},
 			{
 				"name": "tour of unknown 3",
 				"year": "2022",
-				"image": "assets/images/collections/tourofunknown/3.jpg",
+				"image": "assets/images/collections/tourofunknown/3.webp",
+				"thumbnail": "assets/images/collections/tourofunknown/3_s.webp",
 				"description": "Dimension - 11\"x15\". Medium - Oil Pastel on Paper",
 				"sold": false
 			},
 			{
 				"name": "tour of unknown 4",
 				"year": "2022",
-				"image": "assets/images/collections/tourofunknown/4.jpg",
+				"image": "assets/images/collections/tourofunknown/4.webp",
+				"thumbnail": "assets/images/collections/tourofunknown/4_s.webp",
 				"description": "Dimension - 12\"x9\". Medium - Oil Pastel on Paper",
 				"sold": false
 			},
 			{
 				"name": "tour of unknown 5",
 				"year": "2022",
-				"image": "assets/images/collections/tourofunknown/5.jpg",
+				"image": "assets/images/collections/tourofunknown/5.webp",
+				"thumbnail": "assets/images/collections/tourofunknown/5_s.webp",
 				"description": "Dimension - 12\"x9\". Medium - Oil Pastel on Paper",
 				"sold": false
 			},
 			{
 				"name": "tour of unknown 6",
 				"year": "2022",
-				"image": "assets/images/collections/tourofunknown/6.jpg",
+				"image": "assets/images/collections/tourofunknown/6.webp",
+				"thumbnail": "assets/images/collections/tourofunknown/6_s.webp",
 				"description": "Dimension - 11\"x15\". Medium - Oil Pastel on Paper",
 				"sold": false
 			},
 			{
 				"name": "tour of unknown 7",
 				"year": "2021",
-				"image": "assets/images/collections/tourofunknown/7.jpg",
+				"image": "assets/images/collections/tourofunknown/7.webp",
+				"thumbnail": "assets/images/collections/tourofunknown/7_s.webp",
 				"description": "Dimension - 9\"x12\". Medium - Oil Pastel on Paper",
 				"sold": false
 			},
 			{
 				"name": "tour of unknown 8",
 				"year": "2022",
-				"image": "assets/images/collections/tourofunknown/8.jpg",
+				"image": "assets/images/collections/tourofunknown/8.webp",
+				"thumbnail": "assets/images/collections/tourofunknown/8_s.webp",
 				"description": "Dimension - 12\"x9\". Medium - Oil Pastel on Paper",
 				"sold": false
 			},
 			{
 				"name": "tour of unknown 9",
 				"year": "2022",
-				"image": "assets/images/collections/tourofunknown/9.jpg",
+				"image": "assets/images/collections/tourofunknown/9.webp",
+				"thumbnail": "assets/images/collections/tourofunknown/9_s.webp",
 				"description": "Dimension - 12\"x9\". Medium - Oil Pastel on Paper",
 				"sold": false
 			}
@@ -135,34 +154,39 @@
 	{
 		"name": "cityscape",
 		"year": "",
-		"image": "assets/images/collections/cityscape/collection.jpg",
+		"image": "assets/images/collections/cityscape/collection.webp",
+		"thumbnail": "assets/images/collections/cityscape/collection_s.webp",
 		"description": "",
 		"artworks": [
 			{
 				"name": "cityscape 2",
 				"year": "2017",
-				"image": "assets/images/collections/cityscape/2.jpg",
+				"image": "assets/images/collections/cityscape/2.webp",
+				"thumbnail": "assets/images/collections/cityscape/2_s.webp",
 				"description": "Dimension - 16\"x11\". Medium - Mix Media",
 				"sold": false
 			},
 			{
 				"name": "cityscape 3",
 				"year": "2018",
-				"image": "assets/images/collections/cityscape/3.jpg",
+				"image": "assets/images/collections/cityscape/3.webp",
+				"thumbnail": "assets/images/collections/cityscape/3_s.webp",
 				"description": "Dimension - 16\"x11\". Medium - Mix Media on Paper",
 				"sold": false
 			},
 			{
 				"name": "cityscape 4",
 				"year": "2018",
-				"image": "assets/images/collections/cityscape/4.jpg",
+				"image": "assets/images/collections/cityscape/4.webp",
+				"thumbnail": "assets/images/collections/cityscape/4_s.webp",
 				"description": "Dimension - 16\"x11\". Medium - Oil Pastel on Paper",
 				"sold": false
 			},
 			{
 				"name": "cityscape 5",
 				"year": "2016",
-				"image": "assets/images/collections/cityscape/5.jpg",
+				"image": "assets/images/collections/cityscape/5.webp",
+				"thumbnail": "assets/images/collections/cityscape/5_s.webp",
 				"description": "Dimension - 16\"x11\". Medium - Mix Media",
 				"sold": false
 			}
@@ -171,20 +195,23 @@
 	{
 		"name": "blue oasis",
 		"year": "",
-		"image": "assets/images/collections/blueoasis/collection.jpg",
+		"image": "assets/images/collections/blueoasis/collection.webp",
+		"thumbnail": "assets/images/collections/blueoasis/collection_s.webp",
 		"description": "",
 		"artworks": [
 			{
 				"name": "blue oasis",
 				"year": "2017",
-				"image": "assets/images/collections/blueoasis/1.jpg",
+				"image": "assets/images/collections/blueoasis/1.webp",
+				"thumbnail": "assets/images/collections/blueoasis/1_s.webp",
 				"description": "Dimension - 16\"x11\". Medium - Oil Pastel on Paper",
 				"sold": false
 			},
 			{
 				"name": "blue oasis 2",
 				"year": "2020",
-				"image": "assets/images/collections/blueoasis/2.jpg",
+				"image": "assets/images/collections/blueoasis/2.webp",
+				"thumbnail": "assets/images/collections/blueoasis/2_s.webp",
 				"description": "Dimension - 15\"x11\". Medium - Water Color and Oil Pastel on Paper",
 				"sold": false
 			}
@@ -193,111 +220,127 @@
 	{
 		"name": "one of a kind",
 		"year": "",
-		"image": "assets/images/collections/oneofakind/collection.jpg",
+		"image": "assets/images/collections/oneofakind/collection.webp",
+		"thumbnail": "assets/images/collections/oneofakind/collection_s.webp",
 		"description": "",
 		"artworks": [
 			{
 				"name": "the silent idea",
 				"year": "2019",
-				"image": "assets/images/collections/oneofakind/silentidea.jpg",
+				"image": "assets/images/collections/oneofakind/silentidea.webp",
+				"thumbnail": "assets/images/collections/oneofakind/silentidea_s.webp",
 				"description": "Dimension - 24\"x24\". Medium - Oil on Canvas",
 				"sold": false
 			},
 			{
 				"name": "mystic",
 				"year": "2021",
-				"image": "assets/images/collections/oneofakind/mystic.jpg",
+				"image": "assets/images/collections/oneofakind/mystic.webp",
+				"thumbnail": "assets/images/collections/oneofakind/mystic_s.webp",
 				"description": "Dimension - 24\"x24\". Medium - Oils and Mix Media on Canvas",
 				"sold": false
 			},
 			{
 				"name": "occurence",
 				"year": "2021",
-				"image": "assets/images/collections/oneofakind/occurence.jpg",
+				"image": "assets/images/collections/oneofakind/occurence.webp",
+				"thumbnail": "assets/images/collections/oneofakind/occurence_s.webp",
 				"description": "Dimension - 24\"x24\". Medium - Oil on Canvas",
 				"sold": false
 			},
 			{
 				"name": "the transfigured space",
 				"year": "2019",
-				"image": "assets/images/collections/oneofakind/transfiguredspace.jpg",
+				"image": "assets/images/collections/oneofakind/transfiguredspace.webp",
+				"thumbnail": "assets/images/collections/oneofakind/transfiguredspace_s.webp",
 				"description": "Dimension - 24\"x24\". Medium - Oil on Canvas",
 				"sold": false
 			},
 			{
 				"name": "the energetic reality",
 				"year": "2016",
-				"image": "assets/images/collections/oneofakind/energeticreality.jpg",
+				"image": "assets/images/collections/oneofakind/energeticreality.webp",
+				"thumbnail": "assets/images/collections/oneofakind/energeticreality_s.webp",
 				"description": "Dimension - 30\"x60\". Medium - Oil on Canvas",
 				"sold": true
 			},
 			{
 				"name": "muse and poetry",
 				"year": "2016",
-				"image": "assets/images/collections/oneofakind/musepoetry.jpg",
+				"image": "assets/images/collections/oneofakind/musepoetry.webp",
+				"thumbnail": "assets/images/collections/oneofakind/musepoetry_s.webp",
 				"description": "Dimension - 72\"x36\". Medium - Oil on Canvas",
 				"sold": true
 			},
 			{
 				"name": "soft departure",
 				"year": "2016",
-				"image": "assets/images/collections/oneofakind/softdeparture.jpg",
+				"image": "assets/images/collections/oneofakind/softdeparture.webp",
+				"thumbnail": "assets/images/collections/oneofakind/softdeparture_s.webp",
 				"description": "Dimension - 40\"x40\". Medium - Oil on Canvas",
 				"sold": true
 			},
 			{
 				"name": "pink flower",
 				"year": "2017",
-				"image": "assets/images/collections/oneofakind/pinkflower.jpg",
+				"image": "assets/images/collections/oneofakind/pinkflower.webp",
+				"thumbnail": "assets/images/collections/oneofakind/pinkflower_s.webp",
 				"description": "Dimension - 12\"x19\". Medium - Oil Pastels on Paper",
 				"sold": false
 			},
 			{
 				"name": "escape",
 				"year": "2019",
-				"image": "assets/images/collections/oneofakind/escape.jpg",
+				"image": "assets/images/collections/oneofakind/escape.webp",
+				"thumbnail": "assets/images/collections/oneofakind/escape_s.webp",
 				"description": "Dimension - 30\"x36\". Medium - Oils and Oil Pastels on Canvas",
 				"sold": false
 			},
 			{
 				"name": "something experienced",
 				"year": "2019",
-				"image": "assets/images/collections/oneofakind/experienced.jpg",
+				"image": "assets/images/collections/oneofakind/experienced.webp",
+				"thumbnail": "assets/images/collections/oneofakind/experienced_s.webp",
 				"description": "Dimension - 42\"x42\". Medium - Oils and Oil Pastels on Canvas",
 				"sold": false
 			},
 			{
 				"name": "let's walk",
 				"year": "2019",
-				"image": "assets/images/collections/oneofakind/walk.jpg",
+				"image": "assets/images/collections/oneofakind/walk.webp",
+				"thumbnail": "assets/images/collections/oneofakind/walk_s.webp",
 				"description": "Dimension - 30\"x40\". Medium - Oils and Oil Pastels on Canvas",
 				"sold": false
 			},
 			{
 				"name": "soft departure",
 				"year": "",
-				"image": "assets/images/collections/oneofakind/softdeparture_2.jpg",
+				"image": "assets/images/collections/oneofakind/softdeparture_2.webp",
+				"thumbnail": "assets/images/collections/oneofakind/softdeparture_2_s.webp",
 				"description": "Dimension - 40\"x40\". Medium - Oil on Canvas",
 				"sold": true
 			},
 			{
 				"name": "delusion",
 				"year": "2015",
-				"image": "assets/images/collections/oneofakind/delusion.jpg",
+				"image": "assets/images/collections/oneofakind/delusion.webp",
+				"thumbnail": "assets/images/collections/oneofakind/delusion_s.webp",
 				"description": "Dimension - 12\"x19\". Medium - Oil Pastels on Paper",
 				"sold": false
 			},
 			{
 				"name": "vibrant story",
 				"year": "2021",
-				"image": "assets/images/collections/oneofakind/vibrantstory.jpg",
+				"image": "assets/images/collections/oneofakind/vibrantstory.webp",
+				"thumbnail": "assets/images/collections/oneofakind/vibrantstory_s.webp",
 				"description": "Dimension - 16\"x11\". Medium - Mix Media",
 				"sold": false
 			},
 			{
 				"name": "thoughts",
 				"year": "2017",
-				"image": "assets/images/collections/oneofakind/thoughts.jpg",
+				"image": "assets/images/collections/oneofakind/thoughts.webp",
+				"thumbnail": "assets/images/collections/oneofakind/thoughts_s.webp",
 				"description": "Dimension - 11.5\"x8\". Medium - Oil Pastels on Paper",
 				"sold": false
 			}

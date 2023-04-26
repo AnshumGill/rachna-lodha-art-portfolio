@@ -9,7 +9,10 @@
 		<div class="col-12 col-md-6 col-lg-4" *ngFor="let artwork of collectionObj.artworks">
 			<a href="/collection/{{ collectionToken }}/artwork/{{ artwork.token }}" class="text-reset text-decoration-none">
 				<div class="card border-0 rounded-0 bg-transparent h-100" [ngClass]="{ sold: artwork.sold === true }">
-					<img src="{{ artwork.image }}" class="art-img" />
+					<picture>
+						<source srcset="{{ artwork.image }}" media="(min-width: 1080px)" class="art-img" />
+						<img src="{{ artwork.thumbnail }}" class="art-img" loading="“lazy”" decoding="“async”" />
+					</picture>
 					<div class="card-body text-center d-flex align-items-end">
 						<p class="h5 text-dark flex-grow-1">{{ artwork.name }} - {{ artwork.year }}</p>
 					</div>
