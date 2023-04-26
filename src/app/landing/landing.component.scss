@@ -1,16 +1,5 @@
-@media only screen and (max-width: 600px) {
-	.landing {
-		background: url("../../assets/images/landing.webp"), linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0));
-	}
-}
-
-@media only screen and (min-width: 600px) {
-	.landing {
-		background: url("../../assets/images/landing.webp"), linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0));
-	}
-}
-
 .landing {
+	background: url("../../assets/images/landing.webp");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
